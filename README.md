@@ -1,2 +1,3 @@
 # awesome-hackathons
-bunch of links to help in a hackathon
+
+[No more google](https://nomoregoogle.com/) - list of links with alternatives to google tools
