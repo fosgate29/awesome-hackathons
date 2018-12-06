@@ -112,3 +112,65 @@ It is also really important to understand the underlying system when programming
 ### Sharding
 
 ### Proof of Stake (Casper)
+
+
+# Style Guidelines
+
+* Follow the official [Solidity Style Guide](https://solidity.readthedocs.io/en/latest/style-guide.html)
+  * Constant variables should be listed in all capital letters.
+  * Use succinct, descriptive names for functions and variables.
+    * Example: `uint256 minContribution` versus `uint256 num` or `uint256 contrib`
+  * For new functions, include a description of the expected functionality and parameters. 
+  * Write tests for all your code. Use helper functions to make tests as short and concise as possible and use 
+    good variable names. 
+  * Use [Solium](https://github.com/duaraghav8/Solium) for Solidity linting. 
+
+* For Javascript, use [ESlint](https://eslint.org/docs/user-guide/getting-started). 
+
+* You can use [Git Commands](https://github.com/joshnh/Git-Commands) for a quick reference on Git. 
+
+# Contribution Guidelines
+
+## Step 1
+
+* Create a new branch for each card (i.e. task) or relevantly grouped cards (i.e. If several small changes are 
+  required as part of a large tasks, please group the changes into one branch.)
+* Branch naming should follow the below convention: 
+  * `chore/name-of-branch`: To be used for comment, variable name changes, updating compiler versions, or 
+     routine updates in general that do not alter the main functionality of the code.
+     * Example branch name for adding comments: `chore/clarify-comments`
+  * `refactor/name-of-branch`: To be used when refactoring existing code. 
+     * Example branch name for refactoring to add additional require()'s: `refactor/add-requires`
+  * `feature/name-of-branch`: To be used when adding a new feature to existing code.
+     * Example branch name for new feature: `feature/add-refund-function`
+  * `bugfix/name-of-branch`: To be used when fixing a bug
+     * Example branch name for bug: `bugfix/fix-reentrancy`
+  
+* Update Trello to reflect progress (i.e. In Progress). 
+* If issues arise that prevent you from finishing the task, alert the team in Solidity Slack channel for 
+  assistance. If issues continue without resolution, move the task to the Blocked category in Trello to reflect 
+  status and put together a plan for resolution or mitigation. 
+
+## Step 2
+
+* Push changes to your respective branch. 
+* Pull requests are meant for quick moves to merge. 
+* If the task includes major design or functionality changes that may require extensive review and potential 
+  refactoring, then alert the team in the Slack channel to provide comments on the commit.
+* Update any relevant documentation for contract design. This may include: Github docs, google docs, diagrams, 
+  etc.
+* Once the branch is ready to be merged, open a pull request pointing towards the `develop` branch, not 
+  `master`.
+  * When opening a pull request, add team members for review. 
+* When reviewing a pull request, leave comments with detailed feedback and ideas for resolution. If questions 
+  arise, use the Solidity Slack channel to discuss thoughts. 
+* Pull requests require at least one approval to merge. 
+
+## Step 3
+
+* Look to Trello for next available tasks. 
+* If no available tasks, research advanced Solidity topics relevant to Token Foundry Key Initiatives and put 
+  together summaries for the team. 
+
+  
+ 
