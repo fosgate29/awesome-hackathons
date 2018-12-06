@@ -60,3 +60,55 @@ It is also really important to understand the underlying system when programming
 * [Reducing mainnet transactions](https://beta.kauri.io/article/a66d50655f8746edb7df90de4b8eb416)
 
 
+
+## Smart Contracts Exploits
+
+* [Storage allocation exploit](https://medium.com/cryptronics/storage-allocation-exploits-in-ethereum-smart-contracts-16c2aa312743)
+* [List of attacks](http://www.dasp.co/)
+* [Array overflow attack](https://www.youtube.com/watch?v=gUqHgFuSsqg)
+
+## Extra solidity tools
+
+* [eth-gas-reporter](https://github.com/cgewecke/eth-gas-reporter)
+  * It works only with TF smart contracts tests when it is ``yarn coverage``. The reason is because  ``coverage`` executes *testrpc* in a separate process. eth-gas-reporter fails when we use ``yarn test`` because Ganache runs in memory.
+* [Merkle Tree](https://github.com/miguelmota/merkle-tree)
+  * This can be used to build Merkle Tree proofs. 
+
+## Additional tutorials
+
+* [Practical Decompilation of Ethereum Smart Contracts](http://blog.ret2.io/2018/05/16/practical-eth-decompilation/)
+* [Building and installing Ethereum compilers](https://www.youtube.com/watch?v=4qbJFpT1ecI&t=186s)
+
+## Ethereum Scaling Solutions
+
+* [Summary of Ethereum Scaling Solutions & Teams Working on Them](https://docs.google.com/spreadsheets/d/1BQ0bK_LhSQvxtvXryVoIcmxeKMuVJCq6oD0aS5_hpC8/edit#gid=0)
+
+### State Channels
+* [Alex Miller's Simple Payment Channel](https://blog.gridplus.io/a-simple-ethereum-payment-channel-implementation-2d320d1fad93)
+* [Jeff Coleman's Overview of State Channels](http://www.jeffcoleman.ca/state-channels/)
+* [Foundations of State Channel Networks](https://eprint.iacr.org/2018/320)
+* [Generalized State Channels: Includes References to Several Resources](https://medium.com/spankchain/a-state-channels-adventure-with-counterfactual-rick-part-1-ce68e16252ea)
+* [Machinomy's Medium Articles](https://medium.com/machinomy)
+* [Connext Medium Articles](https://medium.com/connext)
+* [L4 Generalized State Channels](https://medium.com/l4-media/generalized-state-channels-on-ethereum-de0357f5fb44)
+##### State Channel Repos
+* [Machinomy](https://github.com/machinomy/awesome-state-channels)
+* [Raiden Network](https://github.com/raiden-network/raiden)
+* [Spankchain](https://github.com/SpankChain/general-state-channels)
+* [Connext](https://github.com/ConnextProject/Connext)
+
+### Plasma
+* [Plasma Whitepaper](http://plasma.io/plasma.pdf)
+* [Alex Miller on Plasma](https://blog.gridplus.io/plasma-and-the-internet-of-money-ccf7d5e8c3be)
+* [Eth Research: Plasma](https://ethresear.ch/c/plasma)
+* [Minimum Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426)
+* [Plasma Cash](https://ethresear.ch/t/plasma-cash-plasma-with-much-less-per-user-data-checking/1298)
+* [Plasma Implementation Calls](https://www.youtube.com/channel/UCG2MeKuKDJRK4gFNk-dQuZQ)
+##### Plasma Repos
+* [Omisego](https://github.com/omisego/plasma-mvp)
+* [Fourth State](https://github.com/FourthState/plasma-mvp-rootchain)
+* [Leverj](https://github.com/leverj)
+
+### Sharding
+
+### Proof of Stake (Casper)
