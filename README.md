@@ -16,3 +16,6 @@
 
 ## Javascript tips
 [Closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
+
+## Solidity tips
+[Create an Oracle](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e)
