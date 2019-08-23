@@ -19,3 +19,6 @@
 
 ## Solidity tips
 [Create an Oracle](https://medium.com/@pedrodc/implementing-a-blockchain-oracle-on-ethereum-cedc7e26b49e)
+
+## SEO tips
+[Similar werb](https://www.similarweb.com)
