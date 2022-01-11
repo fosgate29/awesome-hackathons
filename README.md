@@ -26,3 +26,6 @@
 
 
 https://codesandbox.io/s/react-databases-api-js-o6ymu?file=/src/components/Todo.js:208-305
+
+## Credit card integration
+https://developers.google.com/web/updates/2015/06/checkout-faster-with-autofill
