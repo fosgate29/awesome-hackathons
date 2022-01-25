@@ -29,3 +29,12 @@ https://codesandbox.io/s/react-databases-api-js-o6ymu?file=/src/components/Todo.
 
 ## Credit card integration
 https://developers.google.com/web/updates/2015/06/checkout-faster-with-autofill
+
+## API Gateway and Lambda service
+https://aws.amazon.com/blogs/compute/using-node-js-es-modules-and-top-level-await-in-aws-lambda/
+https://github.com/aws-samples/aws-lambda-es-module-performance-benchmark/tree/main/src
+https://aws.amazon.com/premiumsupport/knowledge-center/malformed-502-api-gateway/
+https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-output-format
+https://fathomtech.io/blog/http-api-error-handling-for-aws-lambda-and-api-gateway/
+https://kbravh.dev/writing/error-handling-api-gateway-lambda-node/
+https://stackoverflow.com/questions/28834835/readfile-in-base64-nodejs
