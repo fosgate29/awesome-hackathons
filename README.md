@@ -14,6 +14,8 @@
 
 [Landing page templates](https://unbounce.com/landing-page-templates/)
 
+[Vulnerability scan](https://owasp.org/www-community/Vulnerability_Scanning_Tools)
+
 ## Javascript tips
 [Closures](https://medium.com/dailyjs/i-never-understood-javascript-closures-9663703368e8)
 
